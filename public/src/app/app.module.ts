@@ -1,0 +1,29 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { Component } from '@angular/core';
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ArtPageComponent } from './art-page/art-page.component';
+import { ResumePageComponent } from './resume-page/resume-page.component';
+import { SkillsPageComponent } from './skills-page/skills-page.component';
+import { ProjectsPageComponent } from './projects-page/projects-page.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HomePageComponent,
+    ArtPageComponent,
+    ResumePageComponent,
+    SkillsPageComponent,
+    ProjectsPageComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
