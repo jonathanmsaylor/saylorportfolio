@@ -22,59 +22,69 @@
 </head>
 
 <body>
+  <!-- MOBILE  -->
   <header>
-    <div class="container" id="headerContainer">
-      <div class="row" style="text-align: center; justify-content: center;">
-        <div class="col-sm-6">
-          <div class="row" style="justify-content: center;">
-            <div data-aos="fade-down" data-aos-offset="200" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
-              <h1>Jonathan Saylor</h1>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-8" style="padding: 0;">
-              <div id="fullstack" class="row" style="margin: 0;">
-                <div data-aos="fade" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="2000" data-aos-easing="ease-in-out">
-                  <p>Full-Stack Web Developer</p>
-                </div>
-              </div>
-              <div class="row justify-content-center" style="margin: 0;">
-                <div data-aos="fade" data-aos-offset="200" data-aos-delay="1400" data-aos-duration="2000" data-aos-easing="ease-in-out">
-                  <h3 class="fullstacktwo">Specializing in Front-End Development</h3>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div data-aos="fade" data-aos-offset="200" data-aos-delay="1800" data-aos-duration="2000" data-aos-easing="ease-in-out">
-                <img class="logo" src="http://www.mafilm.org/wp-content/uploads/2018/05/Iatse-800.png">
-              </div>
-            </div>
-          </div>
+    <div class="container-fluid shadow-lg" id="headerContainer">
+      <nav class="navbar navbar-1 white shadow-sm">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Jonathan Saylor</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler shadow-sm" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto" style="padding-left: 6px;">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/portfolio">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/resume">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/resume">Resume</a>
+            </li>
+          </ul>
+          <!-- Links -->
         </div>
-        <div class="col-sm-12" style="padding: 10px; color: black; width: 90%;">
-          <div class="row">
-            <div class="col-sm-4" style="padding: 5px;">
-              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
-                <div routerLink="/projects">Projects</div>
-              </button>
-            </div>
-            <div class="col-sm-4" style="padding: 5px;">
-              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
-                <div routerLink="/portfolio">Portfolio</div>
-              </button>
-            </div>
-            <div class="col-sm-4" style="padding: 5px;">
-              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
-                <div routerLink="/resume">Resume</div>
-              </button>
-            </div>
-          </div>
-        </div>
+        <!-- Collapsible content -->
+      </nav>
+    </div>
+    <div class="container" style="text-align: center;">
+        <h3 style="margin-top: 10%; margin-bottom: 0; font-family: cursive; text-decoration: underline;">Cosmo</h3>
+      <div class="row" id="artrows">
+        <img src="https://i.ibb.co/wygBKGy/art4.jpg" style="border: 4px solid black; width: 75%; height: 75%; box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.767);">
+      </div>
+      <h3 style="margin-top: 10%; margin-bottom: 0; font-family: cursive; text-decoration: underline;">Reservoir</h3>
+      <div class="row" id="artrows">
+        <img src="https://i.ibb.co/2KfQ1C5/Image-6-1.png" style="border: 4px solid black; width: 75%; height: 75%; box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.411);">
+      </div>
+      <h3 style="margin-top: 10%; margin-bottom: 0; font-family: cursive; text-decoration: underline;">Vertigo</h3>
+      <div class="row" id="artrows">
+        <img src="https://i.ibb.co/MCycJk0/Image-4-1.png" style="border: 4px solid black; width: 75%; height: 75%; box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.411);">
+      </div>
+      <h3 style="margin-top: 10%; margin-bottom: 0; font-family: cursive; text-decoration: underline;">Carmen</h3>
+      <div class="row" id="artrows">
+        <img src="https://i.ibb.co/wK6kPpT/Image-5-1.png" style="border: 4px solid black; width: 75%; height: 75%; box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.411);">
+      </div>
+      <h3 style="margin-top: 10%; margin-bottom: 0; font-family: cursive; text-decoration: underline;">Heat</h3>
+      <div class="row" id="artrows">
+        <img src="https://i.ibb.co/7zv4WBg/Image-3.jpg" style="border: 4px solid black; width: 75%; height: 75%; box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.411);">
+      </div>
+      <h3 style="margin-top: 20%; margin-bottom: 0; font-family: cursive; text-decoration: underline;">Grow</h3>
+      <div class="row" id="artrows" style="margin-bottom: 10%;">
+        <img src="https://i.ibb.co/HnJccPc/Image-2.jpg" style="border: 4px solid black; width: 75%; height: 75%; box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.767);">
       </div>
     </div>
+    <!-- END MOBILE -->
 
 
-    <!-- desktop view -->
+    <!-- DESKTOP -->
     <div class="container-fluid" id="desktopHeader">
       <div class="row justify-content-center">
         <div data-aos="fade-down" data-aos-offset="200" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
@@ -84,16 +94,6 @@
       <div class="row justify-content-center">
         <div data-aos="fade" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="2000" data-aos-easing="ease-in-out">
           <p id="fullstack">Full-Stack Web Developer</p>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div data-aos="fade" data-aos-offset="200" data-aos-delay="1400" data-aos-duration="2000" data-aos-easing="ease-in-out">
-          <h3 class="fullstacktwo">Specializing in Front-End Technologies</h3>
-        </div>
-      </div>
-      <div class="row justify-content-center" style="text-align: center;">
-        <div data-aos="fade" data-aos-offset="200" data-aos-delay="1800" data-aos-duration="2000" data-aos-easing="ease-in-out">
-          <img class="logo" src="http://www.mafilm.org/wp-content/uploads/2018/05/Iatse-800.png">
         </div>
       </div>
     </div>
@@ -115,76 +115,34 @@
       </button>
     </div>
   </div>
-  <hr>
   <div class="container" id="homecontainer">
-    <div class="homerows">
-      <div class="row">
-        <p>Steven has over 25 years in the movie industry and has successfully completed over 70 projects, which include television
-          (over 400 episodes) and features. His past experiences have allowed him to bring something different and unique
-          to his Set Designer career. He is well respected in the film industry and highly sought after for his innovative
-          designs and steadfast work ethic.</p>
-      </div>
-      <hr>
-      <div>
-        <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1300" data-aos-easing="ease-in-out">
-          <div class="row">
-            <p>Steven started his first architectural design company when he was 18 years old. At this time Steven
-              was honing his skills in architectural design and managing clients, contractors, engineers and city county
-              officals.
-            </p>
-          </div>
+    <div class="row">
+      <div class="col-sm">
+        <div class="homebox">
+          I am a full stack web developer that specializes in front-end technologies. I am proficient in Python, MEAN, and web fundamentals
+          stack. In addition to web development, I am an abstract artist and I use my robust imagination to bring forth unique,
+          dynamic, yet structured projects for my clients. I have a diligent work ethic and I aim to bring my creativeness
+          and experience to game development companies and front-end web design projects.
         </div>
-        <hr>
-        <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <div class="row">
-            <p>Steven went on to work at a civil engineering firm to expand his knowledge in other areas. These included street
-              and utility design, hillside design and construction and earthquake retrofitting. He then obtained his general
-              contracting license from the State of California and began operating his own architectural design and construction
-              company. The firm quickly grew to include the managing of employees, enigneers and construction crews. Steven's
-              firm successfully designed and completed over 700 projects.
-            </p>
-          </div>
-        </div>
-        <hr>
-        <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <div class="row">
-            <p>In 1991 Steven joined MCA/Universal Studios immediately after the infamous New York Street fire. Steven began
-              designing part of the new backlot while being tasked to use his knowledge in design and construction to work
-              as a project manager for permanent studio projects. These projects included studio infrastructure, hillside
-              stabilization, office construction, building relocation and managing the construction and permitting of an
-              approximately 1m square feet, 10 story building to include concrete and steel construction.</p>
-          </div>
-        </div>
-        <hr>
-        <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1000" data-aos-easing="ease-in-out">
-          <div class="row">
-            <p>While at MCA/universal studios Steven took on the role of Damage Assesment Team leader and was trained by the
-              State of California in post earthquake damage assessment. After the 1994 Northridge earthquake Steven was deputized
-              by the county of Los Angeles as a building inspector with the purpose of assessing the safety and structural
-              integrity of buildings. A new opportunity arose and Steven joined 20th Century Fox as a project manager. Utilizing
-              his knowledge in structure, concrete and steel construction. He coordinated projects such as the new Fox Broadcasting
-              building (managing the capping of 25 oil wells), a parking structure and the new Crafts building.</p>
-          </div>
-        </div>
-        <hr>
       </div>
     </div>
   </div>
+  <!-- END DESKTOP -->
 
   <!-- mobile footer -->
-  <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-easing="ease-in" id="mobileFooter">
+  <div data-aos="fade" data-aos-duration="600" data-aos-easing="ease-in" id="mobileFooter">
     <footer>
       <p class="txt-railway">- Get In Touch -</p>
       <hr>
-      <div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+      <div class="row">
         <div class="col-4">
-          <a href="https://www.imdb.com/name/nm0768513/" class="fa fa-imdb"></a>
+          <a href="mailto:jsaylor23@hotmail.com" class="fa fa-envelope-o" aria-hidden="true"></a>
         </div>
         <div class="col-4">
-          <a href="mailto:StevenMSaylor@gmail.com" class="fa fa-google"></a>
+          <a href="https://github.com/jonathanmsaylor" class="fa fa-github" aria-hidden="true"></a>
         </div>
         <div class="col-4">
-          <a href="tel:661-400-3507" class="fa fa-phone" aria-hidden="true"></a>
+          <a href="https://www.linkedin.com/in/jonathan-saylor/" class="fa fa-linkedin" aria-hidden="true"></a>
         </div>
       </div>
     </footer>
@@ -196,7 +154,7 @@
     <footer>
       <p class="txt-railway">- Get In Touch -</p>
       <hr>
-      <div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+      <div class="row">
         <div class="col-4">
           <div class="row" id="phoneEmail">
             <h2 style="text-decoration: underline;">Phone</h2>
@@ -206,8 +164,8 @@
           </div>
         </div>
         <div class="col-4">
-            <a href="https://www.imdb.com/name/nm0768513/" class="fa fa-imdb"></a>
-          </div>
+          <a href="https://www.imdb.com/name/nm0768513/" class="fa fa-git"></a>
+        </div>
         <div class="col-4">
           <div class="row" id="phoneEmail">
             <h2 style="text-decoration: underline;">Email</h2>
