@@ -1,3 +1,229 @@
-<p>
-  art-page works!
-</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jonathan Saylor</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="container" id="headerContainer">
+      <div class="row" style="text-align: center; justify-content: center;">
+        <div class="col-sm-6">
+          <div class="row" style="justify-content: center;">
+            <div data-aos="fade-down" data-aos-offset="200" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <h1>Jonathan Saylor</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-8" style="padding: 0;">
+              <div id="fullstack" class="row" style="margin: 0;">
+                <div data-aos="fade" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                  <p>Full-Stack Web Developer</p>
+                </div>
+              </div>
+              <div class="row justify-content-center" style="margin: 0;">
+                <div data-aos="fade" data-aos-offset="200" data-aos-delay="1400" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                  <h3 class="fullstacktwo">Specializing in Front-End Development</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div data-aos="fade" data-aos-offset="200" data-aos-delay="1800" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                <img class="logo" src="http://www.mafilm.org/wp-content/uploads/2018/05/Iatse-800.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12" style="padding: 10px; color: black; width: 90%;">
+          <div class="row">
+            <div class="col-sm-4" style="padding: 5px;">
+              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
+                <div routerLink="/projects">Projects</div>
+              </button>
+            </div>
+            <div class="col-sm-4" style="padding: 5px;">
+              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
+                <div routerLink="/portfolio">Portfolio</div>
+              </button>
+            </div>
+            <div class="col-sm-4" style="padding: 5px;">
+              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
+                <div routerLink="/resume">Resume</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- desktop view -->
+    <div class="container-fluid" id="desktopHeader">
+      <div class="row justify-content-center">
+        <div data-aos="fade-down" data-aos-offset="200" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <h1>Jonathan Saylor</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div data-aos="fade" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          <p id="fullstack">Full-Stack Web Developer</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div data-aos="fade" data-aos-offset="200" data-aos-delay="1400" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          <h3 class="fullstacktwo">Specializing in Front-End Technologies</h3>
+        </div>
+      </div>
+      <div class="row justify-content-center" style="text-align: center;">
+        <div data-aos="fade" data-aos-offset="200" data-aos-delay="1800" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          <img class="logo" src="http://www.mafilm.org/wp-content/uploads/2018/05/Iatse-800.png">
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="row">
+    <div class="col-sm" style="padding: 5px;" id="desktopButtons">
+      <button class="btn-block shadow-lg" id="buttonpadding">
+        <div routerLink="/projects">Projects</div>
+      </button>
+    </div>
+    <div class="col-sm" style="padding: 5px;" id="desktopButtons">
+      <button class="btn-block shadow-lg" id="buttonpadding">
+        <div routerLink="/portfolio">Portfolio</div>
+      </button>
+    </div>
+    <div class="col-sm" style="padding: 5px;" id="desktopButtons">
+      <button class="btn-block shadow-lg" id="buttonpadding">
+        <div routerLink="/resume">Resume</div>
+      </button>
+    </div>
+  </div>
+  <hr>
+  <div class="container" id="homecontainer">
+    <div class="homerows">
+      <div class="row">
+        <p>Steven has over 25 years in the movie industry and has successfully completed over 70 projects, which include television
+          (over 400 episodes) and features. His past experiences have allowed him to bring something different and unique
+          to his Set Designer career. He is well respected in the film industry and highly sought after for his innovative
+          designs and steadfast work ethic.</p>
+      </div>
+      <hr>
+      <div>
+        <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1300" data-aos-easing="ease-in-out">
+          <div class="row">
+            <p>Steven started his first architectural design company when he was 18 years old. At this time Steven
+              was honing his skills in architectural design and managing clients, contractors, engineers and city county
+              officals.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="row">
+            <p>Steven went on to work at a civil engineering firm to expand his knowledge in other areas. These included street
+              and utility design, hillside design and construction and earthquake retrofitting. He then obtained his general
+              contracting license from the State of California and began operating his own architectural design and construction
+              company. The firm quickly grew to include the managing of employees, enigneers and construction crews. Steven's
+              firm successfully designed and completed over 700 projects.
+            </p>
+          </div>
+        </div>
+        <hr>
+        <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="row">
+            <p>In 1991 Steven joined MCA/Universal Studios immediately after the infamous New York Street fire. Steven began
+              designing part of the new backlot while being tasked to use his knowledge in design and construction to work
+              as a project manager for permanent studio projects. These projects included studio infrastructure, hillside
+              stabilization, office construction, building relocation and managing the construction and permitting of an
+              approximately 1m square feet, 10 story building to include concrete and steel construction.</p>
+          </div>
+        </div>
+        <hr>
+        <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="120" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <div class="row">
+            <p>While at MCA/universal studios Steven took on the role of Damage Assesment Team leader and was trained by the
+              State of California in post earthquake damage assessment. After the 1994 Northridge earthquake Steven was deputized
+              by the county of Los Angeles as a building inspector with the purpose of assessing the safety and structural
+              integrity of buildings. A new opportunity arose and Steven joined 20th Century Fox as a project manager. Utilizing
+              his knowledge in structure, concrete and steel construction. He coordinated projects such as the new Fox Broadcasting
+              building (managing the capping of 25 oil wells), a parking structure and the new Crafts building.</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile footer -->
+  <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-easing="ease-in" id="mobileFooter">
+    <footer>
+      <p class="txt-railway">- Get In Touch -</p>
+      <hr>
+      <div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+        <div class="col-4">
+          <a href="https://www.imdb.com/name/nm0768513/" class="fa fa-imdb"></a>
+        </div>
+        <div class="col-4">
+          <a href="mailto:StevenMSaylor@gmail.com" class="fa fa-google"></a>
+        </div>
+        <div class="col-4">
+          <a href="tel:661-400-3507" class="fa fa-phone" aria-hidden="true"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- end mobile footer -->
+
+  <!-- desktop footer -->
+  <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-easing="ease-in" id="desktopFooter">
+    <footer>
+      <p class="txt-railway">- Get In Touch -</p>
+      <hr>
+      <div class="row" style="padding-top: 20px; padding-bottom: 20px;">
+        <div class="col-4">
+          <div class="row" id="phoneEmail">
+            <h2 style="text-decoration: underline;">Phone</h2>
+          </div>
+          <div class="row" id="phoneEmail">
+            <h5>661-400-3507</h5>
+          </div>
+        </div>
+        <div class="col-4">
+            <a href="https://www.imdb.com/name/nm0768513/" class="fa fa-imdb"></a>
+          </div>
+        <div class="col-4">
+          <div class="row" id="phoneEmail">
+            <h2 style="text-decoration: underline;">Email</h2>
+          </div>
+          <div class="row" id="phoneEmail">
+            <h5>StevenMSaylor@gmail.com</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- end desktop footer -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

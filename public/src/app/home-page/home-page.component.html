@@ -1,3 +1,184 @@
-<p>
-  home-page works!
-</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jonathan Saylor</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- MOBILE  -->
+  <header>
+    <div class="container-fluid shadow-lg" id="headerContainer">
+      <div class="row" style="text-align: center; justify-content: center;">
+        <div class="col-sm">
+          <div class="row" style="justify-content: center;">
+            <div data-aos="fade-down" data-aos-offset="200" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+              <h1>Jonathan Saylor</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm" style="padding: 0;">
+              <div id="fullstack" class="row" style="margin: 0;">
+                <div data-aos="fade" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                  <p>Full-Stack Web Developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12" style="padding: 10px; color: black; width: 90%;">
+          <div class="row">
+            <div class="col-sm-4" style="padding: 5px;">
+              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
+                <div routerLink="/projects">Projects</div>
+              </button>
+            </div>
+            <div class="col-sm-4" style="padding: 5px;">
+              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
+                <div routerLink="/portfolio">Portfolio</div>
+              </button>
+            </div>
+            <div class="col-sm-4" style="padding: 5px;">
+              <button class="btn-block shadow-lg" id="mobilebuttonPadding">
+                <div routerLink="/resume">Resume</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="mobilecontainer">
+        <div class="row">
+          <div class="col-sm">
+            <div class="homebox">
+              <div data-aos="fade" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                I am a full stack web developer that specializes in front-end technologies. I am proficient in Python, MEAN, and web fundamentals
+                stack. In addition to web development, I am an abstract artist and I use my robust imagination to bring forth
+                unique, dynamic, yet structured projects for my clients. I have a diligent work ethic and I aim to bring
+                my creativeness and experience to game development companies and front-end web design projects.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MOBILE -->
+
+
+    <!-- DESKTOP -->
+    <div class="container-fluid" id="desktopHeader">
+      <div class="row justify-content-center">
+        <div data-aos="fade-down" data-aos-offset="200" data-aos-delay="600" data-aos-duration="1000" data-aos-easing="ease-in-out">
+          <h1>Jonathan Saylor</h1>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div data-aos="fade" data-aos-offset="200" data-aos-delay="1000" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          <p id="fullstack">Full-Stack Web Developer</p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="row">
+    <div class="col-sm" style="padding: 5px;" id="desktopButtons">
+      <button class="btn-block shadow-lg" id="buttonpadding">
+        <div routerLink="/projects">Projects</div>
+      </button>
+    </div>
+    <div class="col-sm" style="padding: 5px;" id="desktopButtons">
+      <button class="btn-block shadow-lg" id="buttonpadding">
+        <div routerLink="/portfolio">Portfolio</div>
+      </button>
+    </div>
+    <div class="col-sm" style="padding: 5px;" id="desktopButtons">
+      <button class="btn-block shadow-lg" id="buttonpadding">
+        <div routerLink="/resume">Resume</div>
+      </button>
+    </div>
+  </div>
+  <div class="container" id="homecontainer">
+    <div class="row">
+      <div class="col-sm">
+        <div class="homebox">
+          I am a full stack web developer that specializes in front-end technologies. I am proficient in Python, MEAN, and web fundamentals
+          stack. In addition to web development, I am an abstract artist and I use my robust imagination to bring forth unique,
+          dynamic, yet structured projects for my clients. I have a diligent work ethic and I aim to bring my creativeness
+          and experience to game development companies and front-end web design projects.
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END DESKTOP -->
+
+  <!-- mobile footer -->
+  <div data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in" id="mobileFooter">
+    <footer>
+      <p class="txt-railway">- Get In Touch -</p>
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <a href="mailto:jsaylor23@hotmail.com" class="fa fa-envelope-o" aria-hidden="true"></a>
+        </div>
+        <div class="col-4">
+          <a href="https://github.com/jonathanmsaylor" class="fa fa-github" aria-hidden="true"></a>
+        </div>
+        <div class="col-4">
+          <a href="https://www.linkedin.com/in/jonathan-saylor/" class="fa fa-linkedin" aria-hidden="true"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- end mobile footer -->
+
+  <!-- desktop footer -->
+  <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-easing="ease-in" id="desktopFooter">
+    <footer>
+      <p class="txt-railway">- Get In Touch -</p>
+      <hr>
+      <div class="row">
+        <div class="col-4">
+          <div class="row" id="phoneEmail">
+            <h2 style="text-decoration: underline;">Phone</h2>
+          </div>
+          <div class="row" id="phoneEmail">
+            <h5>661-400-3507</h5>
+          </div>
+        </div>
+        <div class="col-4">
+          <a href="https://www.imdb.com/name/nm0768513/" class="fa fa-git"></a>
+        </div>
+        <div class="col-4">
+          <div class="row" id="phoneEmail">
+            <h2 style="text-decoration: underline;">Email</h2>
+          </div>
+          <div class="row" id="phoneEmail">
+            <h5>StevenMSaylor@gmail.com</h5>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- end desktop footer -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
