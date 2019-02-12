@@ -1,4 +1,6 @@
-/* * {border: 1px solid red;} */
+/* * {
+    border: 1px solid red;
+} */
 
 html, body {
     background-image: url("https://i.ibb.co/DQSYpHK/IMG-2325.png");
@@ -12,9 +14,6 @@ html, body {
 /* Extra Small Devices, Phones */
 
 @media only screen and (min-width: 1px) {
-    #desktopButtons {
-        display: none;
-    }
     #mobilebuttonPadding {
         margin: 0;
         margin-top: 10px;
@@ -22,7 +21,7 @@ html, body {
     }
     #headerContainer {
         width: auto;
-        background-image: linear-gradient(#7428e6, #ab2e8cd7, #c94258e1, #c9425856, #c9425800);
+        background-image: linear-gradient(#5100d4e0, #d95969de, #ffd34f40, #f2101030, #c9425800);
         padding: 10px;
         border-radius: 10px;
     }
@@ -118,13 +117,14 @@ html, body {
     #mobilecontainer {
         color: rgb(230, 228, 228);
         border: 1px solid rgb(253, 197, 124);
-        background-color: rgba(0, 0, 0, 0.575);
+        background-color: rgba(0, 0, 0, 0.623);
         box-shadow: 3px 3px 3px white;
         border-radius: 10px;
         margin: 10px;
         width: 94%;
-        margin-top: 10%;
+        margin-top: 12%;
         padding: 10%;
+        margin-bottom: 10%;
     }
     .homerows {
         padding: 15px;
@@ -147,6 +147,12 @@ html, body {
     #desktopFooter {
         display: none;
     }
+    #mobileparagraph {
+        display: initial;
+    }
+    #desktopparagraph {
+        display: none;
+    }
 }
 
 /* Medium to Large Devices */
@@ -158,7 +164,78 @@ html, body {
     #headercontainer {
         display: none;
     }
-    #desktopButtons {
+    h1 {
+        font-family: bauhaus;
+        font-size: 90px;
+        letter-spacing: 5px;
+        color: rgb(253, 197, 124);
+        text-align: center;
+        padding: 36px;
+        padding-bottom: 0;
+    }
+    #fullstack {
+        justify-content: center;
+        font-family: bauhaus;
+        font-size: 40px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        margin: 8px;
+        margin-bottom: 0;
+    }
+    #mobilecontainer {
+        color: rgb(230, 228, 228);
+        border: 1px solid rgb(253, 197, 124);
+        background-color: rgba(0, 0, 0, 0.623);
+        box-shadow: 3px 3px 3px white;
+        border-radius: 10px;
+    }
+    #mobileparagraph {
+        display: none;
+    }
+    #mobileFooter {
+        display: none;
+    }
+    #desktopFooter {
         display: initial;
+        margin: 0;
+    }
+    footer {
+        background-image: linear-gradient(#c942583b, #c94258da, #c94258cc, #c94258e1, #ab2e8ce8, #822effec);
+    }
+    .txt-railway {
+        font-family: bauhus;
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 0;
+        padding-bottom: 20px;
+        letter-spacing: 5px;
+    }
+    #desktopparagraph {
+        display: initial;
+        justify-content: center;
+        background-color: black;
+        width: 40%;
+        margin: auto;
+    }
+    #desktopparagraphcolumn {
+        background-color: black;
+        color: whitesmoke;
+        border: 1px solid rgb(253, 197, 124);
+        background-color: rgba(0, 0, 0, 0.705);
+        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        border-radius: 10px;
+        height: auto;
+        width: 75%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 22px;
+        font-family: bauhus;
+        padding-top: 29px;
+        text-align: center;
+    }
+    #desktopicons {
+        font-size: 40px;
     }
 }
