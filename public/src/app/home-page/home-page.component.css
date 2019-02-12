@@ -183,11 +183,7 @@ html, body {
         margin-bottom: 0;
     }
     #mobilecontainer {
-        color: rgb(230, 228, 228);
-        border: 1px solid rgb(253, 197, 124);
-        background-color: rgba(0, 0, 0, 0.623);
-        box-shadow: 3px 3px 3px white;
-        border-radius: 10px;
+        display: none;
     }
     #mobileparagraph {
         display: none;
