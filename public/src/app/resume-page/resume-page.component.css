@@ -1,0 +1,323 @@
+
+/* * {border: 1px solid red;} */
+
+html, body {
+    background-image: url("https://i.ibb.co/DQSYpHK/IMG-2325.png");
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 1px) {
+    .navbar.navbar-1 .navbar-toggler-icon {
+        background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+    }
+    .navbar.navbar-1 .navbar-toggler {
+        border: none;
+        background-image: linear-gradient(#6600ff, #ab2e8c, #c94259);
+    }
+    .navbar {
+        background-color: #0c0303f1;
+    }
+    .nav-item {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .navbar-brand {
+        font-size: 33px;
+        color: white;
+        font-family: bauhus;
+        text-decoration: bold;
+    }
+    .nav-link {
+        color: rgb(253, 197, 124);
+        font-size: 20px;
+        font-family: bauhus;
+    }
+    #desktopButtons {
+        display: none;
+    }
+    #artrows {
+        justify-content: center;
+        margin-top: 10%;
+        font-family: cursive;
+    }
+    #mobilebuttonPadding {
+        margin: 0;
+        margin-top: 10px;
+        background-color: rgba(255, 255, 255, 0.897);
+    }
+    #headerContainer {
+        margin: 0;
+        padding: 0;
+    }
+    #fullstack {
+        justify-content: center;
+        font-family: bauhaus;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: whitesmoke;
+        margin: 8px;
+        margin-bottom: 0;
+    }
+    h1 {
+        font-family: bauhaus;
+        font-size: 45px;
+        color: rgb(253, 197, 124);
+        text-align: center;
+        padding: 36px;
+        padding-bottom: 0;
+    }
+    .homebox {
+        font-family: bauhus;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+    }
+    .btn-block {
+        border: none;
+        cursor: pointer;
+        outline: none;
+        font-family: bauhaus;
+        padding: 10px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+22,f1f1f1+43,cccccc+87&0.78+22,1+100 */
+        background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.78) 0%, rgba(246, 246, 246, 0.78) 22%, rgba(241, 241, 241, 0.84) 43%, rgba(204, 204, 204, 0.96) 87%, rgba(204, 204, 204, 1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.78) 0%, rgba(246, 246, 246, 0.78) 22%, rgba(241, 241, 241, 0.84) 43%, rgba(204, 204, 204, 0.96) 87%, rgba(204, 204, 204, 1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.78) 0%, rgba(246, 246, 246, 0.78) 22%, rgba(241, 241, 241, 0.84) 43%, rgba(204, 204, 204, 0.96) 87%, rgba(204, 204, 204, 1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7ffffff', endColorstr='#cccccc', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+        color: black;
+        font-size: 20px;
+        letter-spacing: 2px;
+        border-radius: 10px;
+        margin: 10px;
+        border: 2px solid black;
+    }
+    .col-4 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .fa {
+        padding: 15px;
+        font-size: 30px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        margin: 25%;
+        border: 1px solid black;
+        background-color: white;
+    }
+    .fa-github {
+        color: black;
+    }
+    .fa-linkedin {
+        color: rgb(0, 0, 182);
+    }
+    .icon-bar {
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 20px;
+    }
+    footer {
+        background-image: linear-gradient(#c9425800, #c94258da, #c94258cc, #c94258e1, #ab2e8ce8, #822effec);
+        padding: 8%;
+    }
+    #homecontainer {
+        display: none;
+    }
+    #mobilecontainer {
+        margin-bottom: 100px;
+        color: rgb(230, 228, 228);
+        border: 1px solid rgb(253, 197, 124);
+        background-color: rgba(0, 0, 0, 0.575);
+        padding: 20px;
+        box-shadow: 3px 3px 3px black;
+        border-radius: 30px;
+        margin: 10px;
+        width: 94%;
+    }
+    .homerows {
+        padding: 15px;
+        padding-top: 0;
+    }
+    .fa-envelope-o {
+        color: rgb(179, 29, 29);
+    }
+    .txt-railway {
+        font-family: bauhus;
+        font-size: 30px;
+        color: rgb(253, 197, 124);
+        text-align: center;
+        margin: 0;
+        margin-top: 20px;
+    }
+    #desktopHeader {
+        display: none;
+    }
+    #desktopFooter {
+        display: none;
+    }
+    /* Medium to Large Devices */
+    @media only screen and (min-width: 768px) {
+        #desktopHeader {
+            letter-spacing: 10px;
+            text-align: center;
+            display: initial;
+        }
+        #headerContainer {
+            display: none;
+        }
+        #desktopFooter {
+            display: initial;
+        }
+        #mobileFooter {
+            display: none;
+        }
+        #desktopButtons {
+            display: initial;
+            padding: 25px;
+            margin: 20px;
+        }
+        #fullstack {
+            justify-content: center;
+            font-size: 60px;
+            font-family: bauhus;
+        }
+        h1 {
+            font-family: bauhaus;
+            font-size: 100px;
+            color: white;
+        }
+        #mobilecontainer {
+            display: none;
+        }
+        .btn-block {
+            border: none;
+            cursor: pointer;
+            outline: none;
+            font-family: bauhaus;
+            padding: 10px;
+            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
+            color: white;
+            font-size: 20px;
+            letter-spacing: 2px;
+            border-radius: 10px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+        .fa {
+            padding: 15px;
+            font-size: 40px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            margin: 25%;
+            border: 1px solid black;
+            background-color: white;
+        }
+        .icon-bar {
+            position: fixed;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        .icon-bar a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            transition: all 0.3s ease;
+            color: white;
+            font-size: 20px;
+        }
+        footer {
+            background: linear-gradient(rgba(210, 180, 140, 0.822), rgba(194, 128, 47, 0.048), rgba(210, 180, 140, 0.089));
+            padding: 1%;
+        }
+        #homecontainer {
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: bauhus;
+            font-size: 20px;
+        }
+        #buttonpadding {
+            padding: 0;
+            font-size: 21px;
+            margin: 0;
+            height: 150%;
+        }
+        .homerows {
+            padding: 15px;
+            padding-top: 50px;
+            font-size: 40px;
+        }
+        #phoneEmail {
+            justify-content: center;
+            font-size: 25px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .fa-phone {
+            color: green;
+            font-size: 45px;
+            margin: 0;
+            padding: 30px;
+            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
+        }
+        .fa-phone:hover {
+            display: none;
+        }
+        .fa-google {
+            font-size: 45px;
+            margin: 0;
+            padding: 30px;
+            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
+        }
+        .fa-imdb {
+            color: goldenrod;
+            font-size: 60px;
+            margin: 0;
+            padding: 30px;
+            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
+        }
+        .txt-railway {
+            font-family: bauhus;
+            font-size: 50px;
+            color: black;
+            text-align: center;
+            margin: 0;
+            padding: 0px;
+            letter-spacing: 8px;
+        }
+    }
+}

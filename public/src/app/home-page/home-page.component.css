@@ -22,7 +22,7 @@ html, body {
     }
     #headerContainer {
         width: auto;
-        background-image: linear-gradient(#822eff, #ab2e8cd7, #c94258e1, #c9425856, #c9425800);
+        background-image: linear-gradient(#7428e6, #ab2e8cd7, #c94258e1, #c9425856, #c9425800);
         padding: 10px;
         border-radius: 10px;
     }
@@ -116,15 +116,15 @@ html, body {
         display: none;
     }
     #mobilecontainer {
-        margin-bottom: 100px;
         color: rgb(230, 228, 228);
         border: 1px solid rgb(253, 197, 124);
         background-color: rgba(0, 0, 0, 0.575);
-        padding: 20px;
-        box-shadow: 3px 3px 3px black;
-        border-radius: 30px;
+        box-shadow: 3px 3px 3px white;
+        border-radius: 10px;
         margin: 10px;
         width: 94%;
+        margin-top: 10%;
+        padding: 10%;
     }
     .homerows {
         padding: 15px;
@@ -147,148 +147,18 @@ html, body {
     #desktopFooter {
         display: none;
     }
-    /* Medium to Large Devices */
-    @media only screen and (min-width: 768px) {
-        #desktopHeader {
-            letter-spacing: 10px;
-            text-align: center;
-            display: initial;
-        }
-        #headerContainer {
-            display: none;
-        }
-        #desktopFooter {
-            display: initial;
-        }
-        #mobileFooter {
-            display: none;
-        }
-        #desktopButtons {
-            display: initial;
-            padding: 25px;
-            margin: 20px;
-        }
-        #fullstack {
-            justify-content: center;
-            font-size: 60px;
-            font-family: bauhus;
-        }
-        h1 {
-            font-family: bauhaus;
-            font-size: 100px;
-            color: white;
-        }
-        #mobilecontainer {
-            display: none;
-        }
-        .btn-block {
-            border: none;
-            cursor: pointer;
-            outline: none;
-            font-family: bauhaus;
-            padding: 10px;
-            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
-            color: white;
-            font-size: 20px;
-            letter-spacing: 2px;
-            border-radius: 10px;
-            margin: 10px;
-            border: 2px solid black;
-        }
-        .fa {
-            padding: 15px;
-            font-size: 40px;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 50%;
-            margin: 25%;
-            border: 1px solid black;
-            background-color: white;
-        }
-        .icon-bar {
-            position: fixed;
-            top: 50%;
-            -webkit-transform: translateY(-50%);
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-        }
-        .icon-bar a {
-            display: block;
-            text-align: center;
-            padding: 16px;
-            transition: all 0.3s ease;
-            color: white;
-            font-size: 20px;
-        }
-        footer {
-            background: linear-gradient(rgba(210, 180, 140, 0.822), rgba(194, 128, 47, 0.048), rgba(210, 180, 140, 0.089));
-            padding: 1%;
-        }
-        #homecontainer {
-            text-align: center;
-            margin-bottom: 30px;
-            font-family: bauhus;
-            font-size: 20px;
-        }
-        #buttonpadding {
-            padding: 0;
-            font-size: 21px;
-            margin: 0;
-            height: 150%;
-        }
-        .homerows {
-            padding: 15px;
-            padding-top: 50px;
-            font-size: 40px;
-        }
-        #phoneEmail {
-            justify-content: center;
-            font-size: 25px;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        }
-        .fa-phone {
-            color: green;
-            font-size: 45px;
-            margin: 0;
-            padding: 30px;
-            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
-        }
-        .fa-phone:hover {
-            display: none;
-        }
-        .fa-google {
-            font-size: 45px;
-            margin: 0;
-            padding: 30px;
-            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
-        }
-        .fa-imdb {
-            color: goldenrod;
-            font-size: 60px;
-            margin: 0;
-            padding: 30px;
-            background: -moz-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: -webkit-radial-gradient(center, ellipse cover, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            background: radial-gradient(ellipse at center, rgba(169, 3, 41, 0.81) 0%, rgba(143, 2, 34, 0.89) 44%, rgba(109, 0, 25, 1) 100%);
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfa90329', endColorstr='#6d0019', GradientType=1);
-        }
-        .txt-railway {
-            font-family: bauhus;
-            font-size: 50px;
-            color: black;
-            text-align: center;
-            margin: 0;
-            padding: 0px;
-            letter-spacing: 8px;
-        }
+}
+
+/* Medium to Large Devices */
+
+@media only screen and (min-width: 768px) {
+    #desktopHeader {
+        display: inital;
+    }
+    #headercontainer {
+        display: none;
+    }
+    #desktopButtons {
+        display: initial;
     }
 }
