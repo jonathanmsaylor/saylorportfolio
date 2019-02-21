@@ -2,6 +2,18 @@
     border: 1px solid red;
 } */
 
+* {
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
 html, body {
     background-image: url("https://i.ibb.co/DQSYpHK/IMG-2325.png");
     width: 100%;
@@ -172,6 +184,7 @@ html, body {
         text-align: center;
         padding: 36px;
         padding-bottom: 0;
+        cursor: default;
     }
     #fullstack {
         justify-content: center;
@@ -181,6 +194,24 @@ html, body {
         color: whitesmoke;
         margin: 8px;
         margin-bottom: 0;
+        cursor: default;
+    }
+    #mobilebuttonPadding {
+        -webkit-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -ms-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+    #mobilebuttonPadding:hover {
+        background-color: rgb(247, 177, 72);
+        color: rgb(95, 95, 95);
+        -webkit-transition: all .3s ease-out;
+        -moz-transition: all .3s ease-out;
+        -o-transition: all .3s ease-out;
+        -ms-transition: all .3s ease-out;
+        transition: all .3s ease-out;
+        letter-spacing: 2.5px;
     }
     #mobilecontainer {
         display: none;
@@ -216,13 +247,14 @@ html, body {
     }
     #desktopparagraphcolumn {
         background-color: black;
-        color: whitesmoke;
+        color: rgb(224, 224, 224);
         border: 1px solid rgb(253, 197, 124);
         background-color: rgba(0, 0, 0, 0.705);
-        box-shadow: 3px 3px 3px rgb(0, 0, 0);
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.774);
         border-radius: 10px;
         height: auto;
         width: 75%;
+        cursor: default;
         margin: auto;
         margin-top: 100px;
         margin-bottom: 50px;
@@ -231,6 +263,21 @@ html, body {
         padding-top: 20px;
         padding-bottom: 20px;
         text-align: center;
+        -webkit-transition: all .5s ease-out;
+        -moz-transition: all .5s ease-out;
+        -o-transition: all .5s ease-out;
+        -ms-transition: all .5s ease-out;
+        transition: all .5s ease-out;
+    }
+    #desktopparagraphcolumn:hover {
+        color: rgb(223, 223, 223);
+        box-shadow: 3px 3px 3px 3px rgb(0, 0, 0);
+        -webkit-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -ms-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+        background-color: rgba(0, 0, 0, 0.904);
     }
     #desktopicons {
         font-size: 40px;
