@@ -48,6 +48,8 @@ html, body {
         width: 93%;
         color: whitesmoke;
         font-size: 18px;
+        margin-bottom: 5%;
+        cursor: default;
     }
     #desktopButtons {
         display: none;
@@ -229,6 +231,7 @@ html, body {
         #desktopFooter {
             display: initial;
             margin: 0;
+            cursor: default;
         }
         footer {
             background-image: linear-gradient(#c942583b, #c94258da, #c94258cc, #c94258e1, #ab2e8ce8, #822effec);
@@ -266,10 +269,19 @@ html, body {
             padding-top: 29px;
             text-align: center;
         }
+        #stevedescription:hover {
+            box-shadow: 4px 4px 4px rgb(78, 78, 78);
+            background-color: rgba(180, 47, 47, 0.88);
+            transition: all 0.3s ease;
+        }
         #desktopicons {
             margin: 0;
             margin-top: 20px;
             font-size: 40px;
+        }
+        #desktopicons:hover {
+            font-size: 42px;
+            transition: all 0.3s ease;
         }
     }
 }
