@@ -279,9 +279,5 @@ html, body {
             margin-top: 20px;
             font-size: 40px;
         }
-        #desktopicons:hover {
-            font-size: 42px;
-            transition: all 0.3s ease;
-        }
     }
 }
